@@ -8,25 +8,25 @@ def q1():
 
 def q2():
   #Write Assignment code here
-  num = input("Enter an interger: ")
+  num = input("Enter an integer: ")
   num = int(num)
-  bool = num != 0
+  bool = num != 0 
   print(bool)
 
 def q3():
   #Write Assignment code here
   num1 = input("Enter a number: ")
-  numi = float(num1)
-  bool1 = (num1 > -1 and num1 < 11)
+  num1 = float(num1)
+  bool1 = num1 > -1 and num1 < 11
   print(bool1)
 
 def q4():
   #Write Assignment code here
   food = input("Input food: ")
-  drink = input("Input drink")
-  bool2 = (not food == "pizza" or not drink == "pop")
+  drink = input("Input drink: ")
+  bool2 = not food == "pizza" or not drink == "pop"
   print(bool2)
-
+  
 def q5():
   #Write Assignment code here
   num3 = input("Enter an integer: ")
